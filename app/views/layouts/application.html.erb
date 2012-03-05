@@ -7,7 +7,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>
+  
+
+<% if user_signed_in? %>
 <div id="header">
+  <p>Welcome <%= current_user %> [<%= link_to "Logout", destroy_user_session_path, :method => :delete %>]</p>
   <ul>
     <li>
       <%= link_to "Clients", "/clients" %>
@@ -23,7 +30,7 @@
     </li>
     </ul>
 </div>
-
+<% end  %>
 <%= yield %>
 
 </body>

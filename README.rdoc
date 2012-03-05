@@ -7,6 +7,6 @@ The idea is that you should track your work time, in order to find out what clie
 
 == TODO
 
-* Auth
+* Relationship between User and other models
 * Stats
 * Design
