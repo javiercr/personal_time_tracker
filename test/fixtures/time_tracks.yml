@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  start: 2012-03-05 09:17:32
+  end: 2012-03-05 09:17:32
+  interrumptions: 9.99
+  client: 
+  project: 
+  notes: MyText
+
+two:
+  start: 2012-03-05 09:17:32
+  end: 2012-03-05 09:17:32
+  interrumptions: 9.99
+  client: 
+  project: 
+  notes: MyText

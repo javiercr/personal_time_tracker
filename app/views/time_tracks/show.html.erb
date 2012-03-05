@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Start:</b>
+  <%= @time_track.start_time %>
+</p>
+
+<p>
+  <b>End:</b>
+  <%= @time_track.end_time %>
+</p>
+
+<p>
+  <b>Interrumptions:</b>
+  <%= @time_track.interrumptions %>
+</p>
+
+<p>
+  <b>Client:</b>
+  <%= @time_track.client %>
+</p>
+
+<p>
+  <b>Project:</b>
+  <%= @time_track.project %>
+</p>
+
+<p>
+  <b>Notes:</b>
+  <%= @time_track.notes %>
+</p>
+
+
+<%= link_to 'Edit', edit_time_track_path(@time_track) %> |
+<%= link_to 'Back', time_tracks_path %>
